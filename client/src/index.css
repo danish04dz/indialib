@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  .filter-green {
+    filter: brightness(0) saturate(100%) invert(45%) sepia(89%) saturate(3300%) hue-rotate(68deg) brightness(94%) contrast(101%);
+  }
+  .filter-red {
+    filter: brightness(0) saturate(100%) invert(22%) sepia(100%) saturate(7473%) hue-rotate(340deg) brightness(103%) contrast(103%);
+  }
