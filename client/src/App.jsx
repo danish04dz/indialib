@@ -5,10 +5,11 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Library from './pages/Library'
 import Signup from './pages/Signup'
-import Register from './pages/partner/Register'
+
 import Plogin from './pages/partner/Plogin'
 import Addlib from './components/Addlib'
 import Dashboard from './pages/partner/Dashboard'
+import Partner from './pages/partner/Partner'
 export default function App() {
   
   return (
@@ -25,7 +26,7 @@ export default function App() {
           <Route  path='signup'
                   element={<Signup/>} />
           <Route  path='partner'
-                  element={<Register/>} />
+                  element={<Partner/>} />
           <Route  path='plogin'
                   element={<Plogin/>} />
 
