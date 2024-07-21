@@ -5,8 +5,14 @@ import { Link } from 'react-router-dom'
 
 const Dashboard = () => {
   return (
-    <section className='flex items-center justify-center mx-auto my-auto p-5 mt-5'>
+    
+    <section className='flex flex-col items-center justify-center mx-auto my-auto p-5 mt-5'>
+      <div>
+      <h1>welcome to Partner Dasboard</h1>
+      </div>
+     
       <div className='flex gap-5  '>
+        
       <Link to='/addlib' className='bg-slate-500 py-3 px-2 text-white rounded-md '>
       Profile
       </Link>
